@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "0.2.0",
+  "matchId": "mocap_run_demo",
+  "pitch": {
+    "lengthM": 105,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 25,
+    "durationSeconds": 7.68
+  },
+  "dataSource": {
+    "positions": "synthetic",
+    "joints": "cmu_mocap_bvh",
+    "note": "CMU subject 09 run clip 09_01, converted from BVH (09_01.bvh)."
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Home",
+      "color": "#E63946"
+    },
+    {
+      "teamId": "away",
+      "name": "Away",
+      "color": "#457B9D"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "runner",
+      "teamId": "home",
+      "jerseyNumber": 10,
+      "displayName": "Runner"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "0.2.0",
+  "matchId": "demo_sequence",
+  "pitch": {
+    "lengthM": 105,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 25,
+    "durationSeconds": 18
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Home",
+      "color": "#E63946"
+    },
+    {
+      "teamId": "away",
+      "name": "Away",
+      "color": "#457B9D"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "h10",
+      "teamId": "home",
+      "jerseyNumber": 10,
+      "displayName": "Playmaker"
+    },
+    {
+      "playerId": "h9",
+      "teamId": "home",
+      "jerseyNumber": 9,
+      "displayName": "Midfielder"
+    },
+    {
+      "playerId": "h7",
+      "teamId": "home",
+      "jerseyNumber": 7,
+      "displayName": "Striker"
+    },
+    {
+      "playerId": "h1",
+      "teamId": "home",
+      "jerseyNumber": 1,
+      "displayName": "Goalkeeper"
+    },
+    {
+      "playerId": "a4",
+      "teamId": "away",
+      "jerseyNumber": 4,
+      "displayName": "Defender"
+    },
+    {
+      "playerId": "a5",
+      "teamId": "away",
+      "jerseyNumber": 5,
+      "displayName": "Defender"
+    }
+  ]
+}

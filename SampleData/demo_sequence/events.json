@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "eventId": "evt_001",
+      "type": "pass",
+      "frameIndex": 100,
+      "actorPlayerId": "h10",
+      "targetPlayerId": "h9",
+      "foot": "right",
+      "timestampMs": 4000
+    },
+    {
+      "eventId": "evt_002",
+      "type": "pass",
+      "frameIndex": 210,
+      "actorPlayerId": "h9",
+      "targetPlayerId": "h7",
+      "foot": "right",
+      "timestampMs": 8400
+    },
+    {
+      "eventId": "evt_003",
+      "type": "shot",
+      "frameIndex": 360,
+      "actorPlayerId": "h7",
+      "foot": "left",
+      "timestampMs": 14400
+    }
+  ]
+}

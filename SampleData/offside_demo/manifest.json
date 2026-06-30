@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "0.3.0",
+  "matchId": "offside_demo",
+  "pitch": {
+    "lengthM": 105,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 25,
+    "durationSeconds": 5
+  },
+  "situation": {
+    "type": "offside",
+    "title": "VAR — Ofsayt incelemesi",
+    "description": "Pas anında forvet (9) ikinci son savunmacının gerisinde.",
+    "keyFrameIndex": 50,
+    "kickPoint": {
+      "x": -8,
+      "y": 0.15,
+      "z": 34.5
+    },
+    "offsideLine": {
+      "z": 41,
+      "secondLastDefenderPlayerId": "a5",
+      "lastDefenderPlayerId": "a4",
+      "offsidePlayerId": "h9"
+    },
+    "replayWindow": {
+      "startFrameIndex": 25,
+      "endFrameIndex": 85
+    },
+    "verdict": {
+      "outcome": "offside",
+      "marginM": 2.746,
+      "attackerPoint": {
+        "playerId": "h9",
+        "joint": "head",
+        "position": {
+          "x": 2.03,
+          "y": 1.675,
+          "z": 43.746
+        }
+      },
+      "defenderPoint": {
+        "playerId": "a5",
+        "joint": "torso",
+        "position": {
+          "x": 16.057,
+          "y": 1.401,
+          "z": 41.057
+        }
+      }
+    }
+  },
+  "dataSource": {
+    "positions": "authored",
+    "joints": "synthesized_from_root",
+    "note": "Demo senaryosu; gerçek tracking için SoccerTrack/SoccerNet kök pozisyonları kullanılabilir."
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Kırmızı",
+      "color": "#E63946"
+    },
+    {
+      "teamId": "away",
+      "name": "Mavi",
+      "color": "#1D3557"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "h1",
+      "teamId": "home",
+      "jerseyNumber": 1,
+      "displayName": "GK"
+    },
+    {
+      "playerId": "h2",
+      "teamId": "home",
+      "jerseyNumber": 2,
+      "displayName": "LB"
+    },
+    {
+      "playerId": "h3",
+      "teamId": "home",
+      "jerseyNumber": 3,
+      "displayName": "CB"
+    },
+    {
+      "playerId": "h4",
+      "teamId": "home",
+      "jerseyNumber": 4,
+      "displayName": "CB"
+    },
+    {
+      "playerId": "h5",
+      "teamId": "home",
+      "jerseyNumber": 5,
+      "displayName": "RB"
+    },
+    {
+      "playerId": "h6",
+      "teamId": "home",
+      "jerseyNumber": 6,
+      "displayName": "CM"
+    },
+    {
+      "playerId": "h7",
+      "teamId": "home",
+      "jerseyNumber": 7,
+      "displayName": "CM"
+    },
+    {
+      "playerId": "h8",
+      "teamId": "home",
+      "jerseyNumber": 8,
+      "displayName": "CM"
+    },
+    {
+      "playerId": "h9",
+      "teamId": "home",
+      "jerseyNumber": 9,
+      "displayName": "LW"
+    },
+    {
+      "playerId": "h10",
+      "teamId": "home",
+      "jerseyNumber": 10,
+      "displayName": "ST"
+    },
+    {
+      "playerId": "h11",
+      "teamId": "home",
+      "jerseyNumber": 11,
+      "displayName": "RW"
+    },
+    {
+      "playerId": "a1",
+      "teamId": "away",
+      "jerseyNumber": 1,
+      "displayName": "GK"
+    },
+    {
+      "playerId": "a2",
+      "teamId": "away",
+      "jerseyNumber": 2,
+      "displayName": "LB"
+    },
+    {
+      "playerId": "a3",
+      "teamId": "away",
+      "jerseyNumber": 3,
+      "displayName": "CB"
+    },
+    {
+      "playerId": "a4",
+      "teamId": "away",
+      "jerseyNumber": 4,
+      "displayName": "CB"
+    },
+    {
+      "playerId": "a5",
+      "teamId": "away",
+      "jerseyNumber": 5,
+      "displayName": "RB"
+    },
+    {
+      "playerId": "a6",
+      "teamId": "away",
+      "jerseyNumber": 6,
+      "displayName": "LM"
+    },
+    {
+      "playerId": "a7",
+      "teamId": "away",
+      "jerseyNumber": 7,
+      "displayName": "CM"
+    },
+    {
+      "playerId": "a8",
+      "teamId": "away",
+      "jerseyNumber": 8,
+      "displayName": "CM"
+    },
+    {
+      "playerId": "a9",
+      "teamId": "away",
+      "jerseyNumber": 9,
+      "displayName": "RM"
+    },
+    {
+      "playerId": "a10",
+      "teamId": "away",
+      "jerseyNumber": 10,
+      "displayName": "ST"
+    },
+    {
+      "playerId": "a11",
+      "teamId": "away",
+      "jerseyNumber": 11,
+      "displayName": "ST"
+    }
+  ]
+}

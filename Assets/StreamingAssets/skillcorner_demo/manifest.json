@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "0.2.0",
+  "matchId": "skillcorner_demo",
+  "pitch": {
+    "lengthM": 104,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 10,
+    "durationSeconds": 8
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Auckland FC",
+      "color": "#2800f0"
+    },
+    {
+      "teamId": "away",
+      "name": "Newcastle United Jets FC",
+      "color": "#ffffff"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "p51009",
+      "teamId": "away",
+      "jerseyNumber": 1,
+      "displayName": "GK"
+    },
+    {
+      "playerId": "p176224",
+      "teamId": "away",
+      "jerseyNumber": 4,
+      "displayName": "P. Cancar"
+    },
+    {
+      "playerId": "p51649",
+      "teamId": "away",
+      "jerseyNumber": 15,
+      "displayName": "A. Šušnjar"
+    },
+    {
+      "playerId": "p50983",
+      "teamId": "away",
+      "jerseyNumber": 14,
+      "displayName": "D. Ingham"
+    },
+    {
+      "playerId": "p735578",
+      "teamId": "away",
+      "jerseyNumber": 33,
+      "displayName": "M. Natta"
+    },
+    {
+      "playerId": "p50978",
+      "teamId": "away",
+      "jerseyNumber": 19,
+      "displayName": "C. Timmins"
+    },
+    {
+      "playerId": "p735574",
+      "teamId": "away",
+      "jerseyNumber": 17,
+      "displayName": "K. Grozos"
+    },
+    {
+      "playerId": "p795507",
+      "teamId": "away",
+      "jerseyNumber": 37,
+      "displayName": "L. Bayliss"
+    },
+    {
+      "playerId": "p795505",
+      "teamId": "away",
+      "jerseyNumber": 7,
+      "displayName": "E. Adams"
+    },
+    {
+      "playerId": "p735573",
+      "teamId": "away",
+      "jerseyNumber": 39,
+      "displayName": "T. Aquilina"
+    },
+    {
+      "playerId": "p966120",
+      "teamId": "away",
+      "jerseyNumber": 22,
+      "displayName": "B. Gibson"
+    },
+    {
+      "playerId": "p285188",
+      "teamId": "home",
+      "jerseyNumber": 12,
+      "displayName": "GK"
+    },
+    {
+      "playerId": "p51667",
+      "teamId": "home",
+      "jerseyNumber": 23,
+      "displayName": "D. Hall"
+    },
+    {
+      "playerId": "p33697",
+      "teamId": "home",
+      "jerseyNumber": 4,
+      "displayName": "N. Pijnaker"
+    },
+    {
+      "playerId": "p51713",
+      "teamId": "home",
+      "jerseyNumber": 17,
+      "displayName": "C. Elliott"
+    },
+    {
+      "playerId": "p133498",
+      "teamId": "home",
+      "jerseyNumber": 15,
+      "displayName": "F. De Vries"
+    },
+    {
+      "playerId": "p14736",
+      "teamId": "home",
+      "jerseyNumber": 6,
+      "displayName": "L. Verstraete"
+    },
+    {
+      "playerId": "p23418",
+      "teamId": "home",
+      "jerseyNumber": 28,
+      "displayName": "F. Gallegos"
+    },
+    {
+      "playerId": "p133501",
+      "teamId": "home",
+      "jerseyNumber": 27,
+      "displayName": "L. Rogerson"
+    },
+    {
+      "playerId": "p965685",
+      "teamId": "home",
+      "jerseyNumber": 14,
+      "displayName": "L. Gillion"
+    },
+    {
+      "playerId": "p50951",
+      "teamId": "home",
+      "jerseyNumber": 22,
+      "displayName": "J. Brimmer"
+    },
+    {
+      "playerId": "p38673",
+      "teamId": "home",
+      "jerseyNumber": 10,
+      "displayName": "G. May"
+    }
+  ],
+  "dataSource": {
+    "type": "skillcorner_tracking",
+    "provider": "SkillCorner Open Data",
+    "clipId": "1886347",
+    "sourceFile": "ExternalData/SkillCorner/matches/1886347/1886347_tracking_extrapolated.jsonl",
+    "frameRange": {
+      "start": 5000,
+      "end": 5079
+    },
+    "jointSynthesis": "tracking_root_marker",
+    "smoothing": "minimal_root_only",
+    "license": "SkillCorner open data / see github.com/SkillCorner/opendata",
+    "note": "Auckland FC vs Newcastle United Jets FC — frames 5000–5079 @ 10 Hz"
+  }
+}

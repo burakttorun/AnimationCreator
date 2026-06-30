@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "0.2.0",
+  "matchId": "sngs116_real",
+  "pitch": {
+    "lengthM": 105,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 25,
+    "durationSeconds": 12
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Home",
+      "color": "#E63946"
+    },
+    {
+      "teamId": "away",
+      "name": "Away",
+      "color": "#457B9D"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "a25",
+      "teamId": "away",
+      "jerseyNumber": 25,
+      "displayName": "Player 25"
+    },
+    {
+      "playerId": "a19",
+      "teamId": "away",
+      "jerseyNumber": 19,
+      "displayName": "Player 19"
+    },
+    {
+      "playerId": "a8",
+      "teamId": "away",
+      "jerseyNumber": 8,
+      "displayName": "Player 8"
+    },
+    {
+      "playerId": "h36",
+      "teamId": "home",
+      "jerseyNumber": 36,
+      "displayName": "Player 36"
+    },
+    {
+      "playerId": "h11",
+      "teamId": "home",
+      "jerseyNumber": 11,
+      "displayName": "Player 11"
+    },
+    {
+      "playerId": "a23",
+      "teamId": "away",
+      "jerseyNumber": 23,
+      "displayName": "Player 23"
+    },
+    {
+      "playerId": "h14",
+      "teamId": "home",
+      "jerseyNumber": 14,
+      "displayName": "Player 14"
+    },
+    {
+      "playerId": "a11",
+      "teamId": "away",
+      "jerseyNumber": 11,
+      "displayName": "Player 11"
+    },
+    {
+      "playerId": "h44",
+      "teamId": "home",
+      "jerseyNumber": 44,
+      "displayName": "Player 44"
+    },
+    {
+      "playerId": "h33",
+      "teamId": "home",
+      "jerseyNumber": 33,
+      "displayName": "Player 33"
+    },
+    {
+      "playerId": "a20",
+      "teamId": "away",
+      "jerseyNumber": 20,
+      "displayName": "Player 20"
+    },
+    {
+      "playerId": "h27",
+      "teamId": "home",
+      "jerseyNumber": 27,
+      "displayName": "Player 27"
+    },
+    {
+      "playerId": "h28",
+      "teamId": "home",
+      "jerseyNumber": 28,
+      "displayName": "Player 28"
+    },
+    {
+      "playerId": "a29",
+      "teamId": "away",
+      "jerseyNumber": 29,
+      "displayName": "Player 29"
+    },
+    {
+      "playerId": "a34",
+      "teamId": "away",
+      "jerseyNumber": 34,
+      "displayName": "Player 34"
+    },
+    {
+      "playerId": "h30",
+      "teamId": "home",
+      "jerseyNumber": 30,
+      "displayName": "Player 30"
+    },
+    {
+      "playerId": "a31",
+      "teamId": "away",
+      "jerseyNumber": 31,
+      "displayName": "Player 31"
+    },
+    {
+      "playerId": "a13",
+      "teamId": "away",
+      "jerseyNumber": 13,
+      "displayName": "Player 13"
+    },
+    {
+      "playerId": "a32",
+      "teamId": "away",
+      "jerseyNumber": 32,
+      "displayName": "Player 32"
+    },
+    {
+      "playerId": "h34",
+      "teamId": "home",
+      "jerseyNumber": 34,
+      "displayName": "Player 34"
+    },
+    {
+      "playerId": "h35",
+      "teamId": "home",
+      "jerseyNumber": 35,
+      "displayName": "Player 35"
+    },
+    {
+      "playerId": "h37",
+      "teamId": "home",
+      "jerseyNumber": 37,
+      "displayName": "Player 37"
+    },
+    {
+      "playerId": "a1",
+      "teamId": "away",
+      "jerseyNumber": 1,
+      "displayName": "Player 1"
+    },
+    {
+      "playerId": "a38",
+      "teamId": "away",
+      "jerseyNumber": 38,
+      "displayName": "Player 38"
+    },
+    {
+      "playerId": "a39",
+      "teamId": "away",
+      "jerseyNumber": 39,
+      "displayName": "Player 39"
+    },
+    {
+      "playerId": "h40",
+      "teamId": "home",
+      "jerseyNumber": 40,
+      "displayName": "Player 40"
+    },
+    {
+      "playerId": "a42",
+      "teamId": "away",
+      "jerseyNumber": 42,
+      "displayName": "Player 42"
+    }
+  ],
+  "dataSource": {
+    "type": "soccernet_gs_tracking",
+    "provider": "SoccerNet Game State Reconstruction",
+    "clipId": "SNGS-116",
+    "sourceFile": "ExternalData/SoccerNetGS-test/tracklab/SNGS-116.json",
+    "frameRange": {
+      "start": 200,
+      "end": 499
+    },
+    "jointSynthesis": "gait_ik_from_tracking_root",
+    "license": "SoccerNet academic / see soccernet.ai",
+    "note": "SoccerNet GSR — real broadcast clip, 2D pitch tracking"
+  }
+}

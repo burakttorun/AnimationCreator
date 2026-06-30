@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "eventId": "evt_pass",
+      "type": "pass",
+      "frameIndex": 50,
+      "timestampMs": 2000,
+      "actorPlayerId": "h10",
+      "targetPlayerId": "h9",
+      "foot": "right"
+    },
+    {
+      "eventId": "evt_offside",
+      "type": "offside_review",
+      "frameIndex": 50,
+      "timestampMs": 2000,
+      "actorPlayerId": "h9",
+      "targetPlayerId": "a5",
+      "foot": ""
+    }
+  ]
+}

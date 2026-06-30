@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "0.2.0",
+  "matchId": "match_clip_demo",
+  "pitch": {
+    "lengthM": 105,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 25,
+    "durationSeconds": 8
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Home",
+      "color": "#E63946"
+    },
+    {
+      "teamId": "away",
+      "name": "Away",
+      "color": "#457B9D"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "ht5",
+      "teamId": "home",
+      "jerseyNumber": 5,
+      "displayName": "#5"
+    },
+    {
+      "playerId": "ht6",
+      "teamId": "home",
+      "jerseyNumber": 11,
+      "displayName": "#11"
+    },
+    {
+      "playerId": "at7",
+      "teamId": "away",
+      "jerseyNumber": 34,
+      "displayName": "#34"
+    },
+    {
+      "playerId": "ht8",
+      "teamId": "home",
+      "jerseyNumber": 44,
+      "displayName": "#44"
+    },
+    {
+      "playerId": "at9",
+      "teamId": "away",
+      "jerseyNumber": 33,
+      "displayName": "#33"
+    },
+    {
+      "playerId": "at10",
+      "teamId": "away",
+      "jerseyNumber": 20,
+      "displayName": "#20"
+    },
+    {
+      "playerId": "at11",
+      "teamId": "away",
+      "jerseyNumber": 10,
+      "displayName": "#10"
+    },
+    {
+      "playerId": "at12",
+      "teamId": "away",
+      "jerseyNumber": 31,
+      "displayName": "#31"
+    },
+    {
+      "playerId": "at13",
+      "teamId": "away",
+      "jerseyNumber": 14,
+      "displayName": "#14"
+    },
+    {
+      "playerId": "ht15",
+      "teamId": "home",
+      "jerseyNumber": 8,
+      "displayName": "#8"
+    },
+    {
+      "playerId": "at16",
+      "teamId": "away",
+      "jerseyNumber": 36,
+      "displayName": "#36"
+    },
+    {
+      "playerId": "ht17",
+      "teamId": "home",
+      "jerseyNumber": 36,
+      "displayName": "#36"
+    },
+    {
+      "playerId": "at18",
+      "teamId": "away",
+      "jerseyNumber": 8,
+      "displayName": "#8"
+    },
+    {
+      "playerId": "at19",
+      "teamId": "away",
+      "jerseyNumber": 19,
+      "displayName": "GK"
+    },
+    {
+      "playerId": "ht1",
+      "teamId": "home",
+      "jerseyNumber": 4,
+      "displayName": "#4"
+    },
+    {
+      "playerId": "at3",
+      "teamId": "away",
+      "jerseyNumber": 25,
+      "displayName": "#25"
+    }
+  ],
+  "dataSource": {
+    "type": "soccernet_gs_labels",
+    "provider": "SoccerNet Game State Reconstruction",
+    "clipId": "SNGS-116",
+    "sourceFile": "ExternalData/SoccerNetGS/test/SNGS-116/Labels-GameState.json",
+    "frameRange": {
+      "start": 375,
+      "end": 574
+    },
+    "jointSynthesis": "tracking_root_marker",
+    "smoothing": "minimal_root_only",
+    "license": "SoccerNet academic / see soccernet.ai",
+    "note": "SNGS-116 frames 375–574 — open play, clean on-pitch ball track"
+  }
+}

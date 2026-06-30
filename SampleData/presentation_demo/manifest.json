@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "0.2.0",
+  "matchId": "presentation_demo",
+  "pitch": {
+    "lengthM": 105,
+    "widthM": 68
+  },
+  "timing": {
+    "frameRateHz": 25,
+    "durationSeconds": 10
+  },
+  "dataSource": {
+    "positions": "procedural",
+    "joints": "procedural_gait",
+    "note": "Clean single-runner presentation clip with coherent stick-figure kinematics."
+  },
+  "teams": [
+    {
+      "teamId": "home",
+      "name": "Home",
+      "color": "#E63946"
+    }
+  ],
+  "players": [
+    {
+      "playerId": "runner",
+      "teamId": "home",
+      "jerseyNumber": 10,
+      "displayName": "Runner"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "events": [
+    {
+      "eventId": "sc_1",
+      "type": "pass",
+      "frameIndex": 1,
+      "actorPlayerId": "p735578",
+      "timestampMs": 100
+    },
+    {
+      "eventId": "sc_2",
+      "type": "pass",
+      "frameIndex": 4,
+      "actorPlayerId": "p50978",
+      "timestampMs": 400
+    },
+    {
+      "eventId": "sc_3",
+      "type": "pass",
+      "frameIndex": 16,
+      "actorPlayerId": "p50978",
+      "timestampMs": 1600
+    },
+    {
+      "eventId": "sc_4",
+      "type": "pass",
+      "frameIndex": 16,
+      "actorPlayerId": "p735574",
+      "timestampMs": 1600
+    },
+    {
+      "eventId": "sc_5",
+      "type": "pass",
+      "frameIndex": 16,
+      "actorPlayerId": "p795507",
+      "timestampMs": 1600
+    },
+    {
+      "eventId": "sc_6",
+      "type": "pass",
+      "frameIndex": 38,
+      "actorPlayerId": "p51649",
+      "timestampMs": 3800
+    },
+    {
+      "eventId": "sc_7",
+      "type": "pass",
+      "frameIndex": 38,
+      "actorPlayerId": "p176224",
+      "timestampMs": 3800
+    },
+    {
+      "eventId": "sc_8",
+      "type": "pass",
+      "frameIndex": 59,
+      "actorPlayerId": "p50983",
+      "timestampMs": 5900
+    }
+  ]
+}
