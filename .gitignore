@@ -44,3 +44,6 @@ ExternalData/SoccerNetGS-test/
 
 # Node
 node_modules/
+
+# README demo video (GitHub README'ye sürükle-bırak ile eklenir, repoda tutulmaz)
+Docs/ReadmeClip.mp4
