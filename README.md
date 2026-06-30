@@ -6,7 +6,7 @@ Unity tabanlı futbol maç replay simülatörü. Harici tracking verisini **FRDS
 
 ## Demo
 
-<video src="Docs/ReadmeClip.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/burakttorun/AnimationCreator/main/Docs/ReadmeClip.mp4" controls width="100%"></video>
 
 Auckland FC vs Newcastle Jets — 3D simülasyon ve yayın videosu yan yana (8 sn @ 10 Hz, SkillCorner tracking).
 
